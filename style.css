@@ -1,0 +1,49 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff;
+}
+.skills-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-item {
+  background-color: #97f4ed;
+  color: #040608ec;
+  padding: 6px 18px;
+  border-radius: 999px; 
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 2px 4px rgba(244, 229, 229, 0.1);
+}
+
+#profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 15px;
+  border: 2px solid #007acc;
+}
+
+
+.profile-card {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+
+.contact p {
+  margin: 6px 0;
+}
+
+
+a[href] {
+  color: #007acc;
+  text-decoration: none;
+}
